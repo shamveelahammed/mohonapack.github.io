@@ -1,4 +1,4 @@
 # mohonapack.github.io
 Mohona Packages Website
 
-a static html website
+a static html website for a packaging company
