@@ -1,226 +1,293 @@
 <!DOCTYPE html>
-<html>
+<html data-bs-theme="light" lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>mohona packages</title>
+    <title>Mohona Pack</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic&amp;display=swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish">
+    <link rel="stylesheet" href="assets/css/Font%20Awesome%205%20Brands.css">
+    <link rel="stylesheet" href="assets/css/Font%20Awesome%205%20Free.css">
+    <link rel="stylesheet" href="assets/css/FontAwesome.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/styles.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/css/styles.css">
+    <link rel="stylesheet" href="assets/css/css/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/css/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/css/css/styles.css">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%231d1d1f'/><text x='50%' y='50%' dominant-baseline='central' text-anchor='middle' font-family='Arial, sans-serif' font-size='55' font-weight='bold' fill='white'>MP</text></svg>">
 </head>
 
 <body>
-    <nav class="navbar navbar-light navbar-expand-md navigation-clean">
-        <div class="container"><img id="trade-young-logo" src="assets/img/tradeYoung_no_bg.png" style="width: 50px;"><a class="navbar-brand" id="navbar-company-name" href="#">Mohona Packages (BD) Limited</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+    <nav class="navbar navbar-expand-md navbar-ty">
+        <div class="container"><img id="trade-young-logo" src="assets/img/tradeYoung_no_bg.png" style="width:50px;"><a class="navbar-brand text-wrap" id="navbar-company-name" href="#">Mohona Packages (BD) Limited</a><button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navcol-1" id="navbar-menu"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse d-lg-flex justify-content-lg-end" id="navcol-1">
                 <ul class="navbar-nav d-lg-flex">
-                    <li class="nav-item"><a class="nav-link active text-center" href="#" style="text-align: center;">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#about" style="text-align: center;">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#product-gallery" style="text-align: center;">Products</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#certificates" style="text-align: center;">Certificates</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact-us" style="text-align: center;">Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link active text-center" href="#" style="text-align:center;">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about" style="text-align:center;">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#product-gallery" style="text-align:center;">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact" style="text-align:center;">Contact</a></li>
+                    <li class="nav-item ms-3"><button class="btn btn-outline-secondary dark-mode-toggle" id="darkModeToggle" title="Toggle Dark Mode"><svg class="bi bi-sun-fill" fill="currentColor" height="1em" viewbox="0 0 16 16" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"></path></svg></button></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div class="jumbotron hero-technology" style="background: url(&quot;assets/img/pexels-ron-lach-9594145.jpg&quot;) center / cover no-repeat;min-height: 700px;width: 100%;height: 800px;">
-        <h1 class="hero-title" style="color: var(--light);font-family: Lato, sans-serif;">Mohona Packages (BD) Limited</h1>
-        <p class="hero-subtitle">An Export Oriented Garments Accessories Industry</p>
-    </div>
-    <section class="highlight-clean">
-        <div class="container">
-            <div id="about" class="intro">
-                <h2 class="text-center">Our History</h2>
-                <p class="text-center">Since 2009,&nbsp; Mohona Packages BD limited has been viewed upon to be the ultimate source of providing backward linkage support to the country's bustling export-oriented RMG sector.<br>Our factory utilizes modern technologies and semi-automatic machinery to produce the finest quality products. The machines are all from Taiwan, China and India.<br><br>We also established a new state of art automated polymer facility with machines from Taiwan, which produces over 4000 kilograms of the highest grade quality poly bags.&nbsp; And in 2022, we had set up an extension brand new printing&nbsp; to offer even more from our expanding catalogue.<br><br>Our factory stretches over 52,200 square feet with 120 employees. Our versatile workforce is well equipped to handle all our sort of customer demands.</p>
-            </div>
-            <div class="buttons"><a class="btn btn-primary" role="button" href="#product-gallery">Products</a><a href="#contact-us"><button class="btn btn-light" type="button">Contact US</button></a></div>
-        </div>
-    </section><div id="product-gallery" class="photo-gallery">
-  <div class="container-fluid">
-    <h2 class="text-center">Product Gallery</h2>
-    <div class="px-lg-5">
-      <div class="row">
-        <!-- Gallery item -->
-        <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
-          <div class="bg-white rounded shadow-sm">
-            <img src="assets/img/pic-box1.jpg" alt="" class="img-fluid card-img-top" />
-            <div class="p-4">
-              <h5><a class="text-dark">Corrugated Carton</a></h5>
-              <p class="small text-muted mb-0">7/5/3 ply</p>
-               
-              <p>
-                Suitable for workload that requires: High elasticity | Tear
-                resistance | Strength and durability
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- End -->
-
-        <!-- Gallery item -->
-        <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
-          <div class="bg-white rounded shadow-sm">
-            <img
-              src="assets/img/pexels-ds-stories-5040808.jpg"
-              alt=""
-              class="img-fluid card-img-top"
-            />
-            <div class="p-4">
-              <h5><a class="text-dark">Poly Bags</a></h5>
-              <p class="small text-muted mb-0">LDPE | LLDPE | PP | HDPE</p>
-              <p>Suitable for apparel packaging</p>
-            </div>
-          </div>
-        </div>
-        <!-- End -->
-
-        <!-- Gallery item -->
-        <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
-          <div class="bg-white rounded shadow-sm">
-            <img
-              src="assets/img/pexels-monstera-5957128.jpg"
-              alt=""
-              class="img-fluid card-img-top"
-            />
-            <div class="p-4">
-              <h5>
-                <a class="text-dark">Multi-Color Printed Corrugated Carton</a>
-              </h5>
-              <p class="small text-muted mb-0">7/5/3 ply</p>
-              <p>
-                Suitable for workload that requires: low-density | High
-                stiffness | Multi-coloured custom designs
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- End -->
-
-        <!-- Gallery item -->
-        <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
-          <div class="bg-white rounded shadow-sm">
-            <img
-              src="assets/img/pexels-jill-burrow-6070384.jpg"
-              alt=""
-              class="img-fluid card-img-top"
-            />
-            <div class="p-4">
-              <h5><a class="text-dark">Paper board</a></h5>
-              <p class="small text-muted mb-0">Neck and Back Board</p>
-              <p>
-                Ideal for retaining shape and providing support for apparel
-                packaging
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- End -->
-
-        <!-- Gallery item -->
-        <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
-          <div class="bg-white rounded shadow-sm">
-            <img src="assets/img/pic-hangtag1.jpg" alt="" class="img-fluid card-img-top" />
-            <div class="p-4">
-              <h5><a class="text-dark">Tags</a></h5>
-              <p>High quality custom printed apparel labels and hand tags</p>
-            </div>
-          </div>
-        </div>
-        <!-- End -->
-
-        <!-- Gallery item -->
-        <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
-          <div class="bg-white rounded shadow-sm">
-            <img
-              src="assets/img/pexels-malte-luk-5310566.jpg"
-              alt=""
-              class="img-fluid card-img-top"
-            />
-            <div class="p-4">
-              <h5><a class="text-dark">More Products</a></h5>
-              <p>
-                Photo inlay | Offset printing | Swing Thread | Collar stand and
-                Butterfly | Inter-lining fusing and non-fusing
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- End -->
-      </div>
-    </div>
-  </div>
-</div>
-
-    <div class="brands">
-        <h1 class="d-sm-flex d-md-flex d-xl-flex justify-content-sm-center justify-content-md-center justify-content-xl-center" id="certificates" style="height: 100px;padding: 20px;color: var(--gray-dark);font-family: Lato, sans-serif;">Certificates</h1><a class="text-center" href="assets/pdf/company-profile.pdf" target="_blank">Company Profile</a><a class="text-center" href="assets/pdf/FSC-MohonaPackages.pdf" target="_blank">FSC&trade; Certificate</a><a class="text-center" href="assets/pdf/ISO-CERT-90012015.pdf" target="_blank">ISO 9001:2015</a><a class="text-center" href="assets/pdf/GRS-Certificate.pdf" target="_blank">GRS Certificate</a><a> <img id="certs-img" class="brands-img" src="assets/img/certs-logo.png" width="480" height="71"></a>
-    </div>
-    <section class="text-center text-white call-to-action">
-        <div class="overlay" style="background: #000000;"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6" id="contact-us">
-                    <h2 class="text-center">Contact us</h2>
-                    <section class="contact-clean" style="padding: 0px;">
-                        <form method="post" action="https://formspree.io/xknqklnq">
-                            <div class="form-group"><input class="form-control" type="text" name="name" placeholder="Name"></div>
-                            <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email"></div>
-                            <div class="form-group"><textarea class="form-control" name="message" placeholder="Message" rows="10" cols="30"></textarea></div>
-                            <div class="form-group"><button class="btn btn-primary" type="submit">send </button></div>
-                        </form>
-                        <ul class="list-unstyled fa-ul">
-                            <li class="text-left" style="padding: 3px;text-align: right;"><i class="fa fa-building-o" style="font-size: 26px;color: var(--teal);"></i><br><strong>Mohona Packages (BD) Limited,</strong><br>Flat: Level - 4, AM Tower, 25 Sonargaon Janapath,<br>Sector: 12&nbsp; Uttara,&nbsp; Dhaka,&nbsp; Bangladesh<br><br></li>
-                            <li class="text-left" style="padding: 3px;"><i class="fa fa-phone-square" style="font-size: 26px;color: var(--teal);"></i>&nbsp;<br>Tel:&nbsp; +(880) 222-447-0643,&nbsp; 222-447-0644&nbsp;<br><br></li>
-                            <li class="text-left" style="padding: 0px;"><i class="fa fa-wechat" style="font-size: 26px;color: var(--teal);"></i><i class="fa fa-whatsapp" style="font-size: 30px;color: var(--teal);padding: 0px;margin-right: 0px;"></i><br>Mobile:&nbsp; +(880)-170-814-6715 (ext: 16-19)<br><br></li>
-                            <li class="text-left" style="padding: 3px;">
-                                <div>
-                                    <hr style="width: 300px;border-width: 2px;border-color: var(--white);margin: 20px 0px;">
-                                </div>
-                            </li>
-                        </ul>
-                    </section>
+    <section id="about" class="page-section section-alt">
+        <div class="container py-4 py-xl-5">
+            <div class="row mb-5">
+                <div class="col-md-8 col-xl-6 text-center mx-auto">
+                    <div class="card" style="border-style:none;">
+                        <div class="card-body" style="opacity:1;"><img class="img-fluid" src="assets/img/tradeYoung_no_bg.png">
+                            <h4 class="card-title">Mohona Packages (BD) Limited</h4>
+                            <p class="card-text"><strong>Trusted Packaging Partner Since 2009.</strong><br>Mohona Packages (BD) Limited has spent over 15 years serving Bangladesh's export-oriented Ready-Made Garment industry. From master cartons and poly bags to footwear boxes, hanger cartons, and printed tags — we supply a comprehensive product range relied upon by 40+ international fashion brands.<br><br><strong>Internationally Certified. Independently Verified.</strong><br>We hold ISO 9001:2015, FSC, GRS, amfori BSCI, and Sedex certifications — each independently audited to the highest international standards. These accreditations give our clients full assurance over quality management, responsible sourcing, recycled content traceability, and ethical supply chain practices.<br><br><strong>A Workplace Built on Responsibility.</strong><br>We enforce a strict no child labour policy, maintain fully equipped firefighting systems on every floor, and provide free medical care for all workers. Our people-first approach reflects our belief that responsible manufacturing begins with the people behind it.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-6">
-                    <h3>Address</h3><iframe allowfullscreen="" frameborder="0" src="https://www.google.com/maps/embed/v1/search?key=AIzaSyC5L6iwVRd-fY7TbEvgO2jahxRdiW2SL2g&amp;q=Mohona+Packages+BD&amp;zoom=15" width="100%" height="450"></iframe>
-                    <section>
-                        <ul class="list-unstyled">
-                            <li class="text-left" style="padding: 3px;"><i class="fa fa-industry" style="font-size: 26px;color: var(--teal);"></i><br>Block # - L, Holding # - 3, United Road, Shardagonj,<br>Kashimpur, Gazipur, Bangladesh.</li>
-                            <li class="text-left" style="padding: 3px;"><i class="fa fa-phone-square" style="font-size: 26px;color: var(--teal);"></i><br>Tel: +(880)-170-814-6723 (ext: 24 - 29)</li>
-                            <li style="padding: 3px;text-align: left;"><a href="mailto:info@mohonapack.com?" target="_blank" style="color: var(--light);"><i class="fa fa-envelope-open" style="font-size: 26px;color: var(--teal);"></i><br>info@mohonapack.com&nbsp;&nbsp;</a></li>
-                        </ul>
-                    </section>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-xl-4 g-4" id="feature-cards">
+                <div class="col">
+                    <div id="feature-1-card" class="feature-card">
+                        <div class="feature-card-icon"><i class="fas fa-cog"></i></div>
+                        <h4 class="feature-card-title">Proven Manufacturing Capabilities</h4>
+                        <p class="feature-card-text">Our facility produces 8,000 sq meters of master cartons, 300,000 poly bags, and 9,000 printed impressions daily — powered by German Heidelberg presses, Golder Lamination Machine, Sugiyama Whole Punch Machine, and automated poly bag lines from Taiwan and China.</p>
+                    </div>
+                </div>
+                <div class="col" id="feature-2-card">
+                    <div class="feature-card">
+                        <div class="feature-card-icon"><i class="fas fa-balance-scale"></i></div>
+                        <h4 class="feature-card-title">Certified. Ethical. Accountable.</h4>
+                        <p class="feature-card-text">Our ISO 9001:2015, FSC, GRS, amfori BSCI, and Sedex certifications are backed by genuine workplace commitments — zero child labour, monthly fire safety drills, and free medical care for all staff. We don't just meet compliance standards; we build them into how we operate every day.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div id="feature-3-card" class="feature-card">
+                        <div class="feature-card-icon"><i class="fas fa-building"></i></div>
+                        <h4 class="feature-card-title">Proven Trade Partner for 40+ Brands</h4>
+                        <p class="feature-card-text">We are the preferred supplier for over 40 international fashion brands. Our 52,000 sq ft facility, powered by 130 skilled professionals, delivers export-grade packaging solutions that meet the most demanding global standards and timelines.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="feature-card">
+                        <div class="feature-card-icon"><i class="fas fa-building"></i></div>
+                        <h4 class="feature-card-title">Company Profile</h4>
+                        <p class="feature-card-text">Download our comprehensive company profile to learn more about Mohona Packages, our history, capabilities, and commitment to excellence.</p><a class="btn btn-primary btn-sm" role="button" href="assets/pdf/company-profile.pdf" style="margin-top:1rem;" download="">Download PDF</a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <footer class="bg-light footer">
+    <section id="product-gallery" class="page-section">
+        <div class="container py-4 py-xl-5">
+            <h2 class="text-center section-title">Products</h2>
+            <div id="productCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="6000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row g-4">
+                            <div class="col-md-4">
+                                <div id="master-carton" class="pg-card">
+                                    <div class="pg-card-img"><img src="assets/img/products/carton.jpg" alt="Master Carton"></div>
+                                    <div class="pg-card-body">
+                                        <h5 class="pg-card-title">Master Carton</h5><small class="pg-card-sub">8,000 sq meters/day | 7-Ply</small>
+                                        <p class="pg-card-text">7-ply carton production with auto and semi-auto capabilities. Engineered for strength, durability, and superior protection of garment shipments using precision Chinese Sloting &amp; Creasing machinery.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="pg-card">
+                                    <div class="pg-card-img"><img src="assets/img/products/polybags-multi.jpg" alt="PP &amp; PE Poly Bags"></div>
+                                    <div class="pg-card-body">
+                                        <h5 class="pg-card-title">PP &amp; PE Poly Bags</h5><small class="pg-card-sub">300,000 pieces/day</small>
+                                        <p class="pg-card-text">Premium quality polypropylene and polyethylene bags produced on Taiwanese Blowing Machines with fully automatic side and bottom sealing. Available in multiple polymer grades for all apparel packaging needs.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="pg-card">
+                                    <div class="pg-card-img"><img src="assets/img/products/colour-boxes.jpg" alt="Multi-Color Printed Corrugated Carton"></div>
+                                    <div id="eflute" class="pg-card-body">
+                                        <h5 class="pg-card-title">Printed Corrugated Carton</h5><small class="pg-card-sub">7/5/3 ply | Eflute</small>
+                                        <p class="pg-card-text">Eflute cardboard with multi-colour custom design capabilities using Chinese Die Cutting and UV Lamination machines. Also available as Footwear Boxes, Hanger Cartons, and Photo Cards.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row g-4">
+                            <div class="col-md-4">
+                                <div class="pg-card">
+                                    <div class="pg-card-img"><img src="assets/img/products/kraft-board.jpg" alt="Packaging Components"></div>
+                                    <div id="components" class="pg-card-body">
+                                        <h5 class="pg-card-title">Packaging Components</h5><small class="pg-card-sub" id="misc-title">Back Boards | Neck Boards | Collar Stands | Butterflies</small>
+                                        <p class="pg-card-text">Premium packaging components engineered to enhance garment presentation and protection. Produced using Chinese Creasing and Die Cutting equipment for precision and consistency throughout the supply chain.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="pg-card">
+                                    <div class="pg-card-img"><img src="assets/img/products/tags.jpg" alt="Tags"></div>
+                                    <div class="pg-card-body">
+                                        <h5 class="pg-card-title">Tags &amp; Labels</h5><small class="pg-card-sub">Hang Tags | Price Tags | Swing Tickets</small>
+                                        <p class="pg-card-text">High quality custom printed apparel labels and hand tags using Heidelberg EINFARBEN presses. Precision colour reproduction and finishing for global fashion brands.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div id="offset-printing" class="pg-card">
+                                    <div class="pg-card-img"><img src="assets/img/products/offset.jpeg" alt="Offset Printing Services"></div>
+                                    <div class="pg-card-body">
+                                        <h5 class="pg-card-title">Offset Printing</h5><small id="offset-sub-title" class="pg-card-sub">SORSZ 9,000/hr | GTO 52-2 6,000/hr</small>
+                                        <p class="pg-card-text">German Heidelberg SORSZ delivers 9,000 impressions/hour, while the Printmaster GTO 52-2 runs at 6,000 impressions/hour. Complemented by a Golder Lamination Machine and Sugiyama Whole Punch Machine for precision finishing on cartons, labels, tags, and photo cards.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-indicators pg-indicators"><button class="active" type="button" data-bs-target="#productCarousel" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"></button><button type="button" data-bs-target="#productCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button></div><button class="pg-carousel-btn pg-carousel-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev" aria-label="Previous"><svg class="bi bi-chevron-left" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewbox="0 0 16 16"><path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"></path></svg></button><button class="pg-carousel-btn pg-carousel-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next" aria-label="Next"><svg class="bi bi-chevron-right" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewbox="0 0 16 16"><path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"></path></svg></button>
+            </div>
+        </div>
+    </section>
+    <section id="certificates" class="page-section section-alt">
+        <div class="container py-5">
+            <div class="cert-section-header">
+                <p class="cert-section-label">Accreditations &amp; Certifications</p>
+                <h2 class="cert-section-title">Recognised Standards of Excellence</h2>
+                <p class="cert-section-sub">Our operations are independently verified against the most rigorous international standards, giving our clients full confidence in every product we deliver.</p>
+            </div>
+            <div class="cert-badges-row"><a href="assets/pdf/FSC-MohonaPackages.pdf" target="_blank" rel="noopener noreferrer" class="cert-badge-link">
+                    <div class="cert-badge">
+                        <div class="cert-badge-inner">
+                            <div id="fsc" class="cert-badge-ring">
+                                <div class="cert-badge-icon"><img src="assets/img/logo/fsc.png" alt="FSC Logo" style="width:60px;height:60px;object-fit:contain;"></div>
+                            </div>
+                            <div class="cert-badge-body"><span class="cert-badge-code">FSC®</span><span class="cert-badge-name">Forest Stewardship Council</span><span class="cert-badge-desc">Responsible sourcing &amp; chain of custody</span></div>
+                        </div>
+                        <div class="cert-badge-footer"><span>Certified</span></div>
+                    </div>
+                </a><a href="assets/pdf/ISO-CERT-90012015.pdf" target="_blank" rel="noopener noreferrer" class="cert-badge-link">
+                    <div class="cert-badge">
+                        <div class="cert-badge-inner">
+                            <div id="iso" class="cert-badge-ring">
+                                <div class="cert-badge-icon"><img src="assets/img/logo/iso.png" alt="ISO Logo" style="width:60px;height:60px;object-fit:contain;"></div>
+                            </div>
+                            <div class="cert-badge-body"><span class="cert-badge-code">ISO 9001:2015</span><span class="cert-badge-name">Quality Management System</span><span class="cert-badge-desc">Internationally certified quality assurance</span></div>
+                        </div>
+                        <div class="cert-badge-footer"><span>Certified</span></div>
+                    </div>
+                </a><a href="assets/pdf/GRS-Certificate.pdf" target="_blank" rel="noopener noreferrer" class="cert-badge-link">
+                    <div class="cert-badge">
+                        <div class="cert-badge-inner">
+                            <div id="grs" class="cert-badge-ring">
+                                <div class="cert-badge-icon"><img src="assets/img/logo/grs.png" alt="GRS Logo" style="width:60px;height:60px;object-fit:contain;"></div>
+                            </div>
+                            <div class="cert-badge-body"><span class="cert-badge-code">GRS®</span><span class="cert-badge-name">Global Recycled Standard</span><span class="cert-badge-desc">Verified recycled content &amp; traceability</span></div>
+                        </div>
+                        <div class="cert-badge-footer"><span>Certified</span></div>
+                    </div>
+                </a></div>
+            <div class="row justify-content-center mt-5">
+                <div class="col-12 col-md-8 col-lg-6">
+                    <div class="cert-gallery-item"><img class="img-fluid w-100" id="logo" src="assets/img/logo/images-brand.png" alt="Certificate"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="page-section">
+        <div class="container py-4 py-xl-5">
+            <div class="row align-items-stretch g-4">
+                <div class="col-lg-4">
+                    <div class="contact-card">
+                        <div class="contact-card-header"><i class="fas fa-building"></i>
+                            <h2 class="contact-title">Head Office</h2>
+                        </div>
+                        <div class="contact-card-body">
+                            <div class="contact-info-row"><i class="fas fa-map-marker-alt contact-icon"></i>
+                                <div><strong>Mohona Packages (BD) Limited</strong><span class="d-block address-text">Flat: Level - 4, AM Tower,<br>25 Sonargaon Janapath,<br>Sector: 12 Uttara,<br>Dhaka, Bangladesh</span></div>
+                            </div>
+                            <div class="contact-info-row"><i class="fas fa-phone contact-icon"></i>
+                                <div><span class="contact-label">Telephone</span><a class="d-block phone-link-group" href="tel:+8802224470643">+(880)-222-447-0643, 222-447-0644</a></div>
+                            </div>
+                            <div class="contact-info-row"><i class="fas fa-mobile-alt contact-icon"></i>
+                                <div><span class="contact-label">Mobile</span><a class="d-block phone-link-group" href="tel:+8801708146715">+(880)-170-814-6715 (ext: 16-19)</a></div>
+                            </div>
+                            <div class="contact-info-row"><i class="fas fa-comments contact-icon"></i>
+                                <div><span class="contact-label">Quick Connect</span><span class="contact-apps"><i class="fab fa-weixin"></i><i class="fab fa-whatsapp"></i></span></div>
+                            </div>
+                            <div class="contact-info-row"><i class="fas fa-envelope contact-icon"></i>
+                                <div><span class="contact-label">Email</span><a class="d-block email-link-group" href="mailto:hrd@mohonapack.com">hrd@mohonapack.com</a></div>
+                            </div>
+                            <hr class="contact-divider">
+                            <form id="my-form" method="POST" action="https://formspree.io/f/maewbvrr"><input class="form-control mb-2 contact-input" type="text" placeholder="Name"><input class="form-control mb-2 contact-input" type="email" name="email" placeholder="Email"><textarea class="form-control mb-2 contact-input" name="message" placeholder="Message"></textarea><button class="btn btn-primary w-100 btn-contact-primary" id="my-form-button" type="submit">Send Message</button>
+                                <div id="my-form-status"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="contact-card">
+                        <div class="contact-card-header"><i class="fas fa-industry"></i>
+                            <h2 class="contact-title">Factory</h2>
+                        </div>
+                        <div class="contact-card-body">
+                            <div class="contact-info-row"><i class="fas fa-map-marker-alt contact-icon"></i>
+                                <div><strong>Manufacturing Facility</strong><span class="d-block address-text">Block # - L, Holding # - 3,<br>United Road, Shardagonj,<br>Kashimpur, Gazipur,<br>Bangladesh.</span></div>
+                            </div>
+                            <div class="contact-info-row"><i class="fas fa-phone contact-icon"></i>
+                                <div><span class="contact-label">Telephone</span><a class="d-block phone-link-group" href="tel:+8801708146723">+(880)-170-814-6723 (ext: 24-29)</a></div>
+                            </div>
+                            <div class="contact-info-row"><i class="fas fa-envelope contact-icon"></i>
+                                <div><span class="contact-label">Email</span><a class="d-block email-link-group" href="mailto:hrd@mohonapack.com">hrd@mohonapack.com</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="contact-card contact-card-map">
+                        <div class="contact-card-header"><i class="fas fa-map-marked-alt"></i>
+                            <h2 class="contact-title">Location</h2>
+                        </div>
+                        <div class="contact-card-body contact-card-body-map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4409.859570996241!2d90.30240427596975!3d23.97420608014628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755dd2c8cdbec8d%3A0xe4f6a63ddb66b986!2sMohona%20Packages%20(BD)%20Limited!5e1!3m2!1sen!2suk!4v1786205015592!5m2!1sen!2suk" width="100%" height="100%" style="border:0;border-radius:0 0 12px 12px;" allowfullscreen="" loading="lazy"></iframe></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 text-center text-lg-left my-auto h-100">
+                <div class="col-lg-6 text-center text-lg-start h-100 my-auto">
                     <ul class="list-inline mb-2">
-                        <li class="list-inline-item"><a href="#about">About</a></li>
-                        <li class="list-inline-item"><span>⋅</span></li>
-                        <li class="list-inline-item"><a href="#contact-us">Contact Us</a></li>
+                        <li class="list-inline-item list-inline-item"><a href="#about">About</a></li>
+                        <li class="list-inline-item list-inline-item"><span>⋅</span></li>
+                        <li class="list-inline-item list-inline-item"><a href="#product-gallery">Products</a></li>
+                        <li class="list-inline-item list-inline-item"><span>⋅</span></li>
+                        <li class="list-inline-item list-inline-item"></li>
+                        <li class="list-inline-item list-inline-item"><a href="#contact">Contact</a></li>
                     </ul>
-                    <p class="text-muted small mb-4 mb-lg-0">© Trade Young International Company Ltd, 2021. All Rights Reserved.</p>
+                    <p class="small text-muted mb-4 mb-lg-0" id="footer-title">© Mohona Packages, <span id="footer-year"></span>. All Rights Reserved.</p>
                 </div>
-                <div class="col-lg-6 text-center text-lg-right my-auto h-100">
+                <div class="col-lg-6 text-center text-lg-end h-100 my-auto">
                     <ul class="list-inline mb-0">
-                        <li class="list-inline-item"><a href="#"><i class="fa fa-facebook fa-2x fa-fw"></i></a></li>
-                        <li class="list-inline-item"><a href="https://www.linkedin.com/company/trade-young-international-company-ltd/about/"><i class="fa fa-linkedin-square fa-2x fa-fw"></i></a></li>
-                        <li class="list-inline-item"><a href="#"></a></li>
+                        <li class="list-inline-item list-inline-item"></li>
+                        <li class="list-inline-item list-inline-item"><i class="fa fa-linkedin-square fa-2x fa-fw"></i></li>
                     </ul>
                 </div>
             </div>
         </div>
     </footer>
-    <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
-    <script src="assets/js/script.min.js"></script>
+    <script src="assets/js/js/darkmode.js"></script>
+    <script src="assets/js/js/carousel-hover-1.js"></script>
+    <script src="assets/js/js/pdf-download-1.js"></script>
+    <script src="assets/js/js/carousel-hover.js"></script>
+    <script src="assets/js/js/pdf-download.js"></script>
 </body>
 
 </html>

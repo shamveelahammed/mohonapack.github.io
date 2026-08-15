@@ -1,0 +1,161 @@
+/* Certificates Auto-Slider Styles */
+
+.certificates-slider-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+  max-width: 1000px;
+  overflow: hidden;
+}
+
+.certificates-carousel {
+  width: 100%;
+  display: flex;
+  animation: slowScroll 16s ease-in-out infinite;
+}
+
+@keyframes slowScroll {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  25% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  50% {
+    opacity: 0.7;
+    transform: translateY(10px);
+  }
+  75% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.certificates-carousel:hover {
+  animation-play-state: paused;
+}
+
+.cert-slide {
+  width: 100%;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 30px;
+  flex-shrink: 0;
+}
+
+.certificate-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex: 1;
+  max-width: 350px;
+}
+
+.cert-icon {
+  font-size: 48px;
+  color: #007bff;
+  min-width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cert-details {
+  text-align: left;
+}
+
+.certificate-item h5 {
+  margin: 0;
+  font-size: 24px;
+  color: #1d1d1f;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.certificate-item p {
+  margin: 5px 0 0 0;
+  font-size: 14px;
+  color: #666;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Responsive adjustments */
+
+@media (max-width: 768px) {
+  .cert-slide {
+    flex-direction: column;
+    gap: 25px;
+    padding: 30px 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .certificate-item {
+    max-width: 100%;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cert-icon {
+    font-size: 36px;
+    min-width: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .certificate-item h5 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .certificate-item p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  .cert-slide {
+    flex-direction: column;
+    gap: 20px;
+    padding: 25px 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .certificate-item {
+    max-width: 100%;
+    gap: 8px;
+  }
+}
+
+@media (max-width: 576px) {
+  .cert-icon {
+    font-size: 32px;
+    min-width: 45px;
+  }
+}
+
+@media (max-width: 576px) {
+  .certificate-item h5 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 576px) {
+  .certificate-item p {
+    font-size: 11px;
+  }
+}
+
